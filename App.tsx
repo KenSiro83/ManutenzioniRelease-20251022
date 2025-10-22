@@ -1,26 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
-// FIX: Add default export to pages files to fix module resolution errors.
-import Dashboard from './pages/Dashboard';
-// FIX: Add default export to pages files to fix module resolution errors.
-import Maintenance from './pages/Maintenance';
-import Equipment from './pages/Equipment';
-// FIX: Add default export to pages files to fix module resolution errors.
-import Inventory from './pages/Inventory';
-// FIX: Add default export to pages files to fix module resolution errors.
-import Purchasing from './pages/Purchasing';
-import Users from './pages/Users';
-// FIX: Add default export to pages files to fix module resolution errors.
-import MaintenanceDetail from './pages/MaintenanceDetail';
-import EquipmentDetail from './pages/EquipmentDetail';
-// FIX: Add default export to pages files to fix module resolution errors.
-import Planimetrie from './pages/Planimetrie';
-import Settings from './pages/Settings';
-import AuthPage from './pages/Auth';
-// FIX: Add default export to DataContext to fix module resolution errors.
-import { DataProvider } from './contexts/DataContext';
-import { useAuth } from './contexts/AuthContext';
+import Sidebar from './components/Sidebar.tsx';
+import Header from './components/Header.tsx';
+import Dashboard from './pages/Dashboard.tsx';
+import Maintenance from './pages/Maintenance.tsx';
+import Equipment from './pages/Equipment.tsx';
+import Inventory from './pages/Inventory.tsx';
+import Purchasing from './pages/Purchasing.tsx';
+import Users from './pages/Users.tsx';
+import MaintenanceDetail from './pages/MaintenanceDetail.tsx';
+import EquipmentDetail from './pages/EquipmentDetail.tsx';
+import Planimetrie from './pages/Planimetrie.tsx';
+import Settings from './pages/Settings.tsx';
+import AuthPage from './pages/Auth.tsx';
+import { DataProvider } from './contexts/DataContext.tsx';
+import { useAuth } from './contexts/AuthContext.tsx';
 
 const AppContent: React.FC = () => {
   const [route, setRoute] = useState(window.location.hash);

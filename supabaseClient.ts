@@ -1,5 +1,5 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
-import { Database } from './types_db';
+import { Database } from './types_db.ts';
 
 // Questo blocco gestisce le variabili d'ambiente in due contesti diversi:
 // 1. In un ambiente Vite (come Vercel), usa `import.meta.env`.

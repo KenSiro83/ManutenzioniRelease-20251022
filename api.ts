@@ -1,5 +1,5 @@
-import { supabase } from './supabaseClient';
-import { User, Role } from './types';
+import { supabase } from './supabaseClient.ts';
+import { User, Role } from './types.ts';
 
 // Questo servizio gestisce operazioni che richiedono più passaggi o logica complessa.
 const apiService = {

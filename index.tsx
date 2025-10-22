@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import { AuthProvider } from './contexts/AuthContext';
-import { supabaseError } from './supabaseClient';
-import SetupError from './components/SetupError';
+import App from './App.tsx';
+import { AuthProvider } from './contexts/AuthContext.tsx';
+import { supabaseError } from './supabaseClient.ts';
+import SetupError from './components/SetupError.tsx';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
