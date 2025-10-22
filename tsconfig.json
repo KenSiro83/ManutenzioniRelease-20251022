@@ -7,7 +7,7 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -21,6 +21,6 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["vite.config.ts"],
+  "exclude": ["vite.config.ts", "node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
