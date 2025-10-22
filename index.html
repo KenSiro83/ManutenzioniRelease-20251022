@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema Gestione Manutenzioni</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.76.1",
+    "vite": "https://aistudiocdn.com/vite@^7.1.11",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.0.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-100 antialiased">
+    <div id="root"></div>
+    <script>
+      // Mock delle variabili d'ambiente per la sandbox di AI Studio.
+      // In produzione su Vercel, queste verranno fornite in modo sicuro.
+      // --- IMPORTANTE: INSERISCI QUI LE TUE CHIAVI SUPABASE ---
+      var process = {
+        env: {
+          VITE_SUPABASE_URL: "https://djybfzgftncxxbjujwso.supabase.co",
+          VITE_SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRqeWJmemdmdG5jeHhianVqd3NvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA5MDY4MjYsImV4cCI6MjA3NjQ4MjgyNn0.uf4D2XyTcjKUi-_H94K4BBWX865HI-QK64D5XbmCTrM"
+        }
+      };
+    </script>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
